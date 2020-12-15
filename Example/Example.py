@@ -1,10 +1,8 @@
-
-
 class Example:
     def __init__(self):
-        self.value = -1
+        self.value = None
         self.attributes = []
-        self.prediction = -1
+        self.prediction = None
 
     def init_values(self, row, prediction_position):
         self.value = row.pop(prediction_position)
